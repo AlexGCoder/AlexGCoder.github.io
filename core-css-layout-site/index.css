@@ -1,0 +1,114 @@
+nav {
+    width: 960px;
+    margin-left: 500px;
+    margin-top: -10px;
+}
+
+nav::before{
+    content:'';
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: whitesmoke;
+    position:absolute;
+    left: 0;
+    z-index: -1;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a{
+    color: black;
+    display: block;
+    height: 50px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+ul li a:hover {
+    background: #B0C4DE;
+}
+
+.main{
+    display: block;
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    line-height: 30px;
+    
+}
+.mainphoto{
+    width: 550px;
+    height: 550px;
+    display: block;
+    margin-left: 500px;
+}
+.aboutme{
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 350px;
+    font-size: 20px;
+    font-style: italic;
+    background: whitesmoke;
+    width: 50%;
+    
+}
+.skills{
+    text-align: center;
+    margin-left: 350px;
+    font-size: 20px;
+    font-style: italic;
+    width: 50%;
+}
+h2{
+    text-decoration: underline 2px black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.skills{
+    margin-top: 100px;
+    padding-top: 50px;
+    font-style: italic;
+    border-top: 1px dashed black;
+}
+.skills img{
+    width: 800px;
+    height: 300px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+.contacts{
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 350px;
+    font-size: 20px;
+    font-style: oblique;
+    width: 50%;
+    border-top: 1px dashed black;
+    padding-top: 100px;
+}
+
+.form{
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+.footer{
+    font-size: 20px;
+    position: absolute;
+    left: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
